@@ -1,6 +1,6 @@
-const button = document.getElementsByTagName("button");
+const tombol = document.getElementById("tombol");
 
-button.addEventListener("click", () => {
+tombol.addEventListener("click", () => {
   const hello = document.getElementById("hello");
   hello.style.backgroundColor = "black";
   hello.style.color = "white";
