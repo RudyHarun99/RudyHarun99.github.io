@@ -1,4 +1,5 @@
 const tombol = document.getElementById("tombol");
+console.log(tombol);
 
 tombol.addEventListener("click", () => {
   console.log('clicked');
