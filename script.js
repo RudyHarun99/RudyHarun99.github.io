@@ -26,9 +26,10 @@ const data = [
   }
 ]
 
-const list = document.getElementById('list');
+let li = document.getElementById('list');
 let content = '';
 for (let i = 0; i < data.length; i++) {
-  content += `<ul>${data[i].name}, ${data[i].age}</ul>`
+  content += `<ul>${data[i].name}, ${data[i].age}</ul>`;
 }
-list.innerHTML = content;
+console.log(content);
+li.innerHTML = content;
