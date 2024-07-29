@@ -1,5 +1,5 @@
 const tombol = document.getElementById("tombol");
-console.log(tombol);
+// console.log(tombol);
 
 const data = [
   {
@@ -28,7 +28,7 @@ tombol.addEventListener("click", () => {
   let li = document.getElementById('list');
   let content = '';
   for (let i = 0; i < data.length; i++) {
-    content += `<ul>${data[i].name}, ${data[i].age}</ul>`;
+    content += `<li>${data[i].name}, ${data[i].age}</li>`;
   }
   console.log(content);
   li.innerHTML = content;
