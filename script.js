@@ -1,13 +1,6 @@
 const tombol = document.getElementById("tombol");
 console.log(tombol);
 
-tombol.addEventListener("click", () => {
-  console.log('clicked');
-  const hello = document.getElementById("hello");
-  hello.style.backgroundColor = "black";
-  hello.style.color = "white";
-})
-
 const data = [
   {
     id: 1,
@@ -26,10 +19,17 @@ const data = [
   }
 ]
 
-let li = document.getElementById('list');
-let content = '';
-for (let i = 0; i < data.length; i++) {
-  content += `<ul>${data[i].name}, ${data[i].age}</ul>`;
-}
-console.log(content);
-li.innerHTML = content;
+tombol.addEventListener("click", () => {
+  console.log('clicked');
+  const hello = document.getElementById("hello");
+  hello.style.backgroundColor = "black";
+  hello.style.color = "white";
+
+  let li = document.getElementById('list');
+  let content = '';
+  for (let i = 0; i < data.length; i++) {
+    content += `<ul>${data[i].name}, ${data[i].age}</ul>`;
+  }
+  console.log(content);
+  li.innerHTML = content;
+})
