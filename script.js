@@ -1,6 +1,3 @@
-// const hello = document.getElementById('hello');
-// console.log(hello);
-
 const tombol = document.getElementById("tombol");
 console.log(tombol);
 
