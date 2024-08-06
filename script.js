@@ -2,7 +2,7 @@
 // console.log(hello);
 
 const tombol = document.getElementById("tombol");
-// console.log(tombol);
+console.log(tombol);
 
 // const data = [
 //   {
