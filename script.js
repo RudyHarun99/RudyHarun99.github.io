@@ -1,15 +1,7 @@
-const hello = document.getElementById('hello');
-console.log(hello);
+// const hello = document.getElementById('hello');
+// console.log(hello);
 
-
-
-
-
-
-
-
-
-// const tombol = document.getElementById("tombol");
+const tombol = document.getElementById("tombol");
 // console.log(tombol);
 
 // const data = [
@@ -30,17 +22,17 @@ console.log(hello);
 //   }
 // ]
 
-// tombol.addEventListener("click", () => {
-//   console.log('clicked');
-//   const hello = document.getElementById("hello");
-//   hello.style.backgroundColor = "black";
-//   hello.style.color = "white";
+tombol.addEventListener("click", () => {
+  console.log('clicked');
+  const hello = document.getElementById("hello");
+  hello.style.backgroundColor = "black";
+  hello.style.color = "white";
 
-//   let list = document.getElementById('list');
-//   let content = '';
-//   for (let i = 0; i < data.length; i++) {
-//     content += `<li>${data[i].name}, ${data[i].age}</li>`;
-//   }
-//   console.log(content);
-//   list.innerHTML = content;
-// })
+  // let list = document.getElementById('list');
+  // let content = '';
+  // for (let i = 0; i < data.length; i++) {
+  //   content += `<li>${data[i].name}, ${data[i].age}</li>`;
+  // }
+  // console.log(content);
+  // list.innerHTML = content;
+})
