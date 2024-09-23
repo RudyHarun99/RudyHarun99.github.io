@@ -31,5 +31,7 @@ tombol.addEventListener("click", () => {
     content += `<li>${data[i].name}, ${data[i].age}</li>`;
   }
   console.log(content);
-  list.innerHTML = content;
+  // list.innerHTML = content;
+  list.innerText = content;
+  // innerText
 })
